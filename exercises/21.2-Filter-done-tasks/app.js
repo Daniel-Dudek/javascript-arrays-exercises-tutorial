@@ -10,3 +10,7 @@ let tasks = [
 ];
 
 // Your code here
+let doneTask = tasks.filter(elm => {
+  return elm.done === true
+})
+console.log(doneTask)
